@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Welcome employee</h1>
+<h2>Please provide the information about your reimbursement application below.</h2>
+<form action="ReimbursementServlet" method="post" name="myForm">
+    <div>
+        <label>Enter your Employee ID</label>
+        <br>
+        <input type="text">
+    </div>
+    <div>
+        <label>Enter your Name</label>
+        <br>
+        <input type="text">
+    </div>
+    <div>
+        <label>Enter your Email</label>
+        <br>
+        <input type="text">
+    </div>
+    <div>
+        <label>Enter the Reimbursement Amount</label>
+        <br>
+        <input type="number">
+    </div>
+    <div>
+        <label>Reason for Reimbursement</label>
+        <br>
+        <select>
+            <option value="1"></option>
+            <option value="2">cost of moving expenses</option>
+            <option value="3">cost of traveling expenses</option>
+            <option value="4">buying supplies for the office</option>
+            <option value="5">buying food/drinks for the office</option>
+            <option value="6">hitman reimbursement</option>
+            <option value="7">maintenaince upkeep</option>
+            <option value="8">other reasons</option>
+        </select>
+    </div>
+    <input type="submit" value="Submit Reimbursement Application">
+</form>
+</body>
+</html>
